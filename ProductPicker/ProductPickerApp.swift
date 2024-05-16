@@ -12,6 +12,7 @@ struct ProductPickerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: ProductCatalog.Product.self)
         }
     }
 }
