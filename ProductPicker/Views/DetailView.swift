@@ -20,7 +20,8 @@ struct DetailView: View {
                 .font(.title2)
                 .opacity(Constants.UI.lightFontOpacity)
         }
-        .padding(.bottom)
+        .multilineTextAlignment(.center)
+        .padding([.leading,.trailing, .bottom])
         
         Spacer()
         

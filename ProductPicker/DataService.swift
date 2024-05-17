@@ -8,6 +8,7 @@
 import Foundation
 import SwiftData
 
+@MainActor
 struct DataService {
     // MARK: - Network request and persistent storage using SwiftData
     static func retrieveProducts(into context: ModelContext) async throws {
